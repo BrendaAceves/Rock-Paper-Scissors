@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Overpass:wght@100&family=Quattrocento+Sans&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <script src="game.js"></script>
+    <h1>ROCK PAPER SCISSORS</h1>
+    <p>Pick a move...</p>
+    <div class="minigameContainer">
+        <div class="buttonContainer">
+            <div class="userScore">You: 0</div>
+            <div class="computerScore">Computer: 0</div>
+        </div>
+        <div class="images">
+            <div class="imageContainer">
+                <img src="../../assets/icons8-scissors-100.png" alt="scissors">
+            </div>
+            <div class="imageContainer">
+                <img src="../../assets/icons8-rock-100.png" alt="rock">
+            </div>
+            <div class="imageContainer">
+                <img src="../../assets/icons8-sheet-of-paper-100.png" alt="paper">
+            </div>
+        </div>    
+    </div>
+    <div class="footer">
+        <button class="stopGame" onclick="window.location='../main.html'">Stop Game</button>
+    </div>
+</body>
+</html>
